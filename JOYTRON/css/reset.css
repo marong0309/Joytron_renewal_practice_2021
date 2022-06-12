@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 스타일 초기화 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+img{
+    border: none;
+    vertical-align: center;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
